@@ -19,8 +19,9 @@ def grade(grade)
    roster.detect do |group, name|
      if group == grade
        return name
-end
-end
+     end
+   end
+   name.to_sort
 end
 
 
