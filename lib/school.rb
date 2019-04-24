@@ -21,7 +21,10 @@ def grade(grade)
        return name
      end
    end
-   name.sort?
+end
+
+def sort
+  grade = roster.sort
 end
 
 
