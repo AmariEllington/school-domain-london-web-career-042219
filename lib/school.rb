@@ -24,6 +24,7 @@ def grade(grade)
 end
 
 def sort
+  grade = grade.to_h
   grade = roster.sort
 end
 
