@@ -20,6 +20,8 @@ def grade(grade)
      if grade == grade
        return name
 end
+end
+end
 
 
 end
