@@ -18,7 +18,7 @@ end
 def grade(grade)
    roster.detect do |group, name|
      if group == grade
-       return name.to_h
+       return name
      end
    end
 end
