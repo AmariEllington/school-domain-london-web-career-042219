@@ -21,7 +21,7 @@ def grade(grade)
        return name
      end
    end
-   name.to_sort
+   name.sort?
 end
 
 
