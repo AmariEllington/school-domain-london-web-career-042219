@@ -31,6 +31,7 @@ def sort
     new_hash[group] = name.sort
 end
 new_hash
+end
 
 
 
