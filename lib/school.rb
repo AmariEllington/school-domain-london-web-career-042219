@@ -11,6 +11,13 @@ def initialize(name, roster)
   @roster = roster
 end
 
+def roster(roster)
+    @roster = roster
+end
+
+def roster=(roster)
+    @roster
+end
 
 
 end
