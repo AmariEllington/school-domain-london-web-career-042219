@@ -16,8 +16,8 @@ roster[grade] << name
 end
 
 def grade(grade)
-   roster.select do |grade, name|
-     if grade == grade
+   roster.detect do |group, name|
+     if group == grade
        return name
 end
 end
