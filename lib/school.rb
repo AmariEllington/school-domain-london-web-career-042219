@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
 
   attr_writer :name
@@ -22,7 +24,7 @@ def grade(year)
      end
    end
 end
-
+binding.pry
 def sort
   grade = grade.to_h
   grade = grade.sort
