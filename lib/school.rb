@@ -16,7 +16,7 @@ roster[grade] << name
 end
 
 def grade(grade)
-
+   return grade
 end
 
 
