@@ -25,9 +25,12 @@ def grade(year)
    end
 end
 
-def sort(grade)
-  sort = grade.sort
+def sort
+  new_hash = {}
+  roster.each do |group, name|
+    new_hash[group] = name.sort
 end
+new_hash
 
 
 
