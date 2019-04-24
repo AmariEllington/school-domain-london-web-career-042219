@@ -26,9 +26,9 @@ def grade(year)
 end
 
 def sort(grade)
-  grade = grade.to_h
-  grade = grade.sort
+  sort = grade.sort
 end
+
 
 
 end
