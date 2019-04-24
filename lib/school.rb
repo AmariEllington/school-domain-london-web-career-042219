@@ -16,7 +16,7 @@ roster[grade] << name
 end
 
 def grade(grade)
-   roster.each do { |name| name == grade}
+   roster.each do { |name| name == grade }
 end
 
 
