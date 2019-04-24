@@ -24,8 +24,8 @@ def grade(year)
      end
    end
 end
-binding.pry
-def sort
+
+def sort(grade)
   grade = grade.to_h
   grade = grade.sort
 end
