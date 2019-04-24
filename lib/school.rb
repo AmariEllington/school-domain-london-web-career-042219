@@ -9,15 +9,15 @@ def initialize(name)
   @roster = {}
 end
 
-def add_student(name, grade)
+def add_student(name, year)
 
-roster[grade] ||= []
-roster[grade] << name
+roster[year] ||= []
+roster[year] << name
 end
 
-def grade(grade)
+def grade(year)
    roster.detect do |group, name|
-     if group == grade
+     if group == year
        return name
      end
    end
